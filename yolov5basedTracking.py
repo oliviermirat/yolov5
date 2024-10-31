@@ -13,7 +13,7 @@ from ..._getImages import GetImagesMixin
 from zebrazoom.code.tracking.customTrackingImplementations.multipleCenterOfMassTracking._headTrackingHeadingCalculation import _headTrackingHeadingCalculation
 
 import zebrazoom.code.tracking
-import zebrazoom.code.tracking.customTrackingImplementations.yolov5basedTracking.yolov5.detectZZ as detectZZ
+import zebrazoom.code.tracking.customTrackingImplementations.yolov5.yolov5.detectZZ as detectZZ
 from pathlib import Path
 
 
