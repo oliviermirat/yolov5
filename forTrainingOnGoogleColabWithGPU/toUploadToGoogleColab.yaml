@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./pipetteObstruction-2 # set this to the directory that was downloaded in the yolov5 folder
+train: ./train
+val: ./valid
+test: ./test
+
+# Classes (80 COCO classes)
+names:
+    0: fish # make sure this is the correct label
